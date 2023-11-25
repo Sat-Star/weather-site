@@ -1,0 +1,17 @@
+# .gitignore
+
+# Node.js
+node_modules/
+
+# Environment variables
+.env
+
+# Other generated files
+/build/
+/dist/
+/out/
+/coverage/
+
+# OS-specific files
+.DS_Store
+Thumbs.db

@@ -1,0 +1,152 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.head {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.container {
+    text-align: center;
+}
+
+.weather-box {
+    background: linear-gradient(to right, #1c1c1c, #4a4343);
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    font-size: 25px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+.temperature-box {
+    margin-bottom: 20px;
+}
+
+.temperature,
+.city {
+    font-size: 2em;
+    font-weight: bold;
+    margin: 0;
+}
+
+.time-date {
+    margin: 0;
+}
+
+.prediction-box {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.day-box {
+    width: 23%;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 8px;
+    border-style: outset;
+}
+
+/* #cityInput {
+    width: 180px;
+    height: 25px;
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button{
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}*/
+
+/* Add or modify these styles in your existing CSS file */
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+#cityInput {
+    width: 200px;
+    height: 30px;
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#submitButton {
+    display: inline-block;
+    vertical-align: top;
+    /* Align to the top of the input field */
+    height: 40px;
+    /* Set the height as needed */
+    padding: 0 10px;
+    /* Adjust padding for better appearance */
+    background-color: #8c969c;
+    /* Add a background color for the button */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#submitButton img {
+    height: 100%;
+    /* Make the image fill the entire height of the button */
+}
+
+
+#cityInput:focus {
+    outline: none;
+    border-color: #3498db;
+    box-shadow: 0 0 5px rgba(52, 152, 219, 0.7);
+}
+
+/* body {
+    background-color: black;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+.main {
+    background: linear-gradient(to right, white, black);
+    border-radius: 10px;
+}
+
+.info {
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.current-weather,
+.forecast {
+    margin-bottom: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.temperature {
+    font-size: 2em;
+    font-weight: bold;
+} */

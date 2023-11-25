@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet">
+    <title>Weather App</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="head">WEATHER INFO</div>
+        <form id="weatherForm">
+        <div class="weather-box">
+            <label for="cityInput">Type your city name</label>
+            <input type="text" id="cityInput" placeholder="Enter city name">
+            <button id="submitButton" onclick="submitCity()"><img src="arrow.svg" alt="OK"></button>
+        </form>
+            <br><br>
+            <div class="temperature-box">
+                <p class="city" id="city">Ratlam</p>
+                <p class="temperature" id="temperature">25°C, Sunny</p>
+                <p class="time-date" id="time-date">June 02, 2003 | 12:00 Hours</p>
+            </div>
+            <h2>Next 3 days</h2>
+            <div class="prediction-box">
+                <div class="day-box" id="day1">Day 1:<br>Max: 28°C<br>Min: 20°C</div>
+                <div class="day-box" id="day2">Day 2:<br>Max: 28°C<br>Min: 20°C</div>
+                <div class="day-box" id="day3">Day 3:<br>Max: 28°C<br>Min: 20°C</div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="app.js"></script>
+</html>
+
+        
