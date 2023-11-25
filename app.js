@@ -1,4 +1,4 @@
-const serverUrl = 'https://luminous-khapse-90879f.netlify.app/';
+const serverUrl = 'http://localhost:3000';
 document.addEventListener('DOMContentLoaded', function () {
     const weatherForm = document.getElementById('weatherForm');
     weatherForm.addEventListener('submit', function (event) {
